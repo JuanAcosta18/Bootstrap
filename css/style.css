@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  #header{
+    background:rgba(92, 91, 36, 0.808); 
+    width:100%;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px;
+    text-align: center;
+  }
+  .carousel{
+    background-color: rgba(67, 119, 57, 0.336);
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: center;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 40%;
+    margin: auto;
+  }
+#footer{
+    background-color:black;
+    color: white;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-size:12px;
+}
+.nav{
+  background-color:rgba(95, 160, 117, 0.685);
+  border: 1px solid white;
+  text-align: center;
+}
+  @media only screen and (min-width: 500px) {
+    div {
+      text-align: center;
+    }
+    #messi,
+    #virgil,
+    #mane,
+    #cristiano {
+      border: 2px solid rgb(163, 149, 149);
+      border-radius: 5px;
+      font-size: 15px;
+      font-family: sans-serif;
+    }
+    body {
+      background-image: url(https://previews.123rf.com/images/auiapichart/auiapichart1406/auiapichart140600217/29068518-ilustraci%C3%B3n-del-estadio-de-f%C3%BAtbol-para-el-deporte-de-fondo.jpg); 
+    }
+    .right {
+      background-color: rgba(0, 0, 0, 0.699);
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: left;
+  }
+
+  @media only screen and (max-width:800px) {
+    /* para tablets: */
+    
+    #messi,
+    #virgil,
+    #mane,
+    #cristiano {
+      display: inline-block;
+      margin: 2px;
+      width: 100%;
+      padding: 0;
+      background: rgba(95, 160, 109, 0.678);
+      border: 2px solid white;
+      font-family: Impact,Arial, Helvetica, sans-serif;
+      
+    }
+    body {
+      background-image: url(https://image.freepik.com/vector-gratis/estadio-campo-deporte-fondo_64749-409.jpg); 
+    }
+    .right {
+      background-color: rgba(0, 0, 0, 0.699);
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: left;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    #messi,
+    #virgil,
+    #mane,
+    #cristiano{
+      display: inline-block;
+      background-color:rgba(56, 110, 54, 0.651);
+      width: 50%;
+      border-radius: 5px;
+      border: 2px solid white;
+      margin: 2px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color:rgb(245, 245, 245);
+    }
+    body {
+      background-image: url(https://image.freepik.com/foto-gratis/fondo-campo-hierba-verde-futbol-deportes-futbol_64749-1823.jpg); 
+    }
+    #virgil {
+      float: right;
+      
+    }
+    #cristiano {
+      float: left;
+      
+    }
+    .right {
+      background-color: rgba(70, 122, 92, 0.699);
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: center;
+    }
+  }
